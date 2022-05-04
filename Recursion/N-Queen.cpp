@@ -1,5 +1,5 @@
 class Solution {
-public:
+
     vector<vector<string>> res;
     vector<vector<string>> solveNQueens(int n) {
         if(n==0 || n==2 || n==3)
