@@ -1,6 +1,4 @@
-#include <bits/stdc++.h>
 
-using namespace std;
 
 class Solution {
   void solve(int i, int j, vector < vector < int >> & a, int n, vector < string > & ans, string move,
