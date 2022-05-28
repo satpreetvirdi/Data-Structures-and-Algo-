@@ -7,6 +7,7 @@ void insertAtBottom(stack<int> &st, int ele){
     if(st.empty()){
         st.push(ele);
         return;
+        
     }
     int topele = st.top();
     st.pop();
