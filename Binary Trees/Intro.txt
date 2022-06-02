@@ -1,0 +1,20 @@
+Tree Data Structure:
+1. Used to store data in a hierarchical manner. 
+2. Example: File Explorer uses it maintain Folder & file structure in computer, DOM in HTML, comments
+3. Can have any number of children
+
+Basic Terminology:
+Root - Topmost node of the tree 
+Parent - A node having successor is a parent of that node 
+Child - A node having ancestor is a child of that node 
+Sibling - nodes of same parent
+Leaf Node - Node which doesn't have any children
+
+Binary Tree:
+A tree where each node can have maximum two child
+
+Properties of Binary Tree:
+1. Maximum nodes at level L : 2^L
+2. Maximum nodes in a tree of height H: *2^H-1*, where H is the number of levels
+3. For N nodes, minimum possible height or minimum number of levels are log2(N+1)
+4. A binary tree with L leaves has at least log2(N+1)+1 number of levels
