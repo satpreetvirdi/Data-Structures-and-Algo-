@@ -13,6 +13,7 @@ struct Node{
     }
 };
 bool getPath(Node* root , int key , vector<int>&path){
+    if(root == NULL) return false;
     path.push_back(root->data);
     if(root->data== key) return true;
 
@@ -47,7 +48,8 @@ int main(){
     root->right->left= new Node(6);
     root->right->right= new Node(7);
 
-   int n1 = 6 , n2 = 7, lca = LCA(root, n1 ,n2);
+   int n1 = 6 , n2 = 7;
+   int lca = LCA(root, n1 ,n2);
     if(lca == -1 ){
         cout<< "LCA doesn't exist "<< " ";
     }else {
