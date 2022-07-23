@@ -4,9 +4,9 @@ using namespace std;
 class Solution {
     public :
         TreeNode* inorderSuccessor(TreeNode* root , TreeNode* p){
-            int successor = NULL;
+            TreeNode* successor = NULL;
             while(root != NULL){
-              if(root->val <= p->val) {
+              if(root->val <= p) {
                 root = root->right;
               }else{
                 successor = root->val;
