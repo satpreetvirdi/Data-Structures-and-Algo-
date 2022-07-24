@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
+// using adjancy matrix
     int main(){
     int n , m ;
     cin >> n >> m;
