@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TC:- O(4 alpha) ~= O(4)(constant)
+// 
+// 
+// 
+
 vector<int> parent;
 vector<int> rank;
 
